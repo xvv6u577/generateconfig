@@ -1,7 +1,7 @@
 {
   "name": "generateconfig",
   "version": "1.0.0",
-  "description": "generate v2ray config.json file.",
+  "description": "generate v2ray win.zip, mac.zip, qr.png, and config.json file for client.",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,7 @@
     "jsonfile": "5.0.0",
     "nodejs-base64-encode": "0.0.2",
     "qr-image": "3.2.0",
-    "rimraf": "2.6.3",
-    "zip-a-folder": "0.0.8"
+    "rmfr": "2.0.0",
+    "zip-a-folder": "0.0.10"
   }
 }
