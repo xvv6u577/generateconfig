@@ -1,0 +1,18 @@
+{
+  "name": "generateconfig",
+  "version": "1.0.0",
+  "description": "generate v2ray config.json file.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "caster wang <warley8013@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "5.0.0",
+    "nodejs-base64-encode": "0.0.2",
+    "qr-image": "3.2.0",
+    "rimraf": "2.6.3",
+    "zip-a-folder": "0.0.8"
+  }
+}
