@@ -40,6 +40,8 @@ for (let key in main) {
     mac.updateFile("config.json", JSON.stringify(config));
     mac.writeZip(dir + "/mac.zip");
 
+    jsonfile.writeFileSync(dir + "/config.json", config);
+
     let qr_png = qr.image(vmessUrl, { type: "png" });
     qr_png.pipe(require("fs").createWriteStream(dir + "/qr.png"));
   });
