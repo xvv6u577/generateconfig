@@ -2,6 +2,8 @@
 node_modules/
 final/
 origin/
+download/*
+
 
 howto-client-side.md 
 howto-temporary.md
