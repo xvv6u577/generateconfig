@@ -12,5 +12,3 @@
 npm install
 node generate.js
 ```
-
-文件生成需要大约1分钟

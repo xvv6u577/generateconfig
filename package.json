@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "adm-zip": "0.4.14",
+    "express": "4.17.1",
+    "js-yaml": "4.1.0",
     "jsonfile": "5.0.0",
     "node-file-cache": "1.0.2",
     "nodejs-base64-encode": "0.0.2",
